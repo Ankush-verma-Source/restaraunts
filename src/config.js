@@ -8,26 +8,26 @@
 export const RestaurantConfig = {
   // --- BRANDING & INFO ---
   branding: {
-    name: "Albaik Xpress",
-    tagline: "Crispy, Juicy & Irresistible Fried Chicken & More",
-    logoText: "Albaik Xpress",
+    name: "BRICK HOUSE RESTAURANT",
+    tagline: "A Premium Dine-in Experience in Gola",
+    logoText: "BRICK HOUSE",
     logoIcon: "🍽️", // Neutral logo icon representing both veg and non-veg
     aboutTitle: "Our Story",
-    aboutText: "Welcome to Albaik Xpress, the ultimate destination for crispy fried chicken, succulent burgers, and delicious pizzas in Gola Gokaran Nath. We are committed to serving you high-quality, freshly prepared meals made with premium ingredients and our secret blend of aromatic spices. Whether you are dining in with family or ordering a quick bite to go, we guarantee a delicious experience that will keep you coming back for more!",
+    aboutText: "Welcome to BRICK HOUSE RESTAURANT, the ultimate spot for delicious food and comfortable dining in Gola Gokaran Nath. Located near Vikas Chauraha on Old Bypass Road, we serve freshly prepared multi-cuisine meals. Enjoy our cozy brick-styled interior, friendly hospitality, and signature dishes with family and friends.",
     aboutImage: "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=800&q=80",
     heroImage: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1920&q=80" // High-quality food table background
   },
 
   // --- CONTACT & LOCATION ---
   contact: {
-    phone: "07570076666",
+    phone: "07570076666", // Keep phone same or as placeholder if not provided
     phoneDisplay: "07570 076666",
-    whatsapp: "917570076666", // International format without + or spaces
+    whatsapp: "917570076666", 
     whatsappDisplay: "+91 75700 76666",
-    email: "info@albaikxpressgola.com",
-    address: "Lakhimpur Rd, near HDFC Bank, Gola Gokaran Nath, Uttar Pradesh 262802",
-    mapsLink: "https://www.google.com/maps/place/Albaik+Xpress/@27.6757078,76.7028037,478723m/data=!3m1!1e3!4m6!3m5!1s0x399f436131394dff:0x7424969dd0679a6a!8m2!3d28.0757284!4d80.4744755!16s%2Fg%2F11fcszz0cj?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
-    mapsEmbed: "https://maps.google.com/maps?q=Albaik%20Xpress%20Gola%20Gokaran%20Nath%20Uttar%20Pradesh&t=&z=16&ie=UTF8&iwloc=&output=embed"
+    email: "info@brickhouserestaurant.com",
+    address: "Old by pass road, near Market Basket, near vikas chauraha, Gola Gokaran Nath, Uttar Pradesh 262802",
+    mapsLink: "https://www.google.com/maps/place/BRICK+HOUSE+RESTAURANT+-+Best+Restaurant+in+Gola/@27.6757078,76.7028037,478723m/data=!3m1!1e3!4m6!3m5!1s0x399f43128b53973d:0xbd84b06729e2ef2e!8m2!3d28.0790766!4d80.4625869!16s%2Fg%2F11fl9hpkqh?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+    mapsEmbed: "https://maps.google.com/maps?q=BRICK%20HOUSE%20RESTAURANT%20Gola%20Gokaran%20Nath%20Uttar%20Pradesh&t=&z=16&ie=UTF8&iwloc=&output=embed"
   },
 
   // --- BUSINESS HOURS ---
@@ -36,13 +36,12 @@ export const RestaurantConfig = {
     { days: "Saturday - Sunday", hours: "11:00 AM - 11:30 PM" }
   ],
 
-  // --- VISUAL DESIGN & THEME ENGINE ---
   theme: {
-    stylePreset: "fast-red", // "modern-dark", "luxury-gold", "warm-amber", "fast-red"
+    stylePreset: "fast-red", // Reverted back to fast-red
     colors: {
-      primary: "#e52d27",
-      primaryHover: "#b31217",
-      secondary: "#f0a500",
+      primary: "#e52d27",      // fast red primary
+      primaryHover: "#b31217", // fast red hover
+      secondary: "#f0a500",    // golden secondary
       bgLight: "#fafafa",
       bgDark: "#121212",
       cardLight: "#ffffff",
